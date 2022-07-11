@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Analytics Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1> Juan Cervantes <br>Portfolio</h1>
+						<p> Self taught data analyst well versed in Python and Excel. <br>
+							Familiar with SQL, and Power BI. 
+							<br><br><br>
+							There are a total of 5 projects, 4 of the projects were worked on using the language Python. <br>
+							The final project is a dashboard that was made using Excel.
+							Each project demonstrates certain skills, such as:
+							<ul style="list-style-type: circle">
+								<li>Data Cleaning</li>
+								<li>Visualization</li>
+								<li>Automation</li>
+								<li>Connecting to APIs</li>
+								<li>Web Scraping</li>
+							</ul>
+							<br><br><br><br>	
+						</p>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<class class="logo">Projects</class>
+					</header>
+
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Analyzing Sales Data
+									</h2>
+									
+									<p style="text-align:left;">
+										This project focuses on showing how I manipulate the data to answer the questions below.<br>
+										 The Data for this project was downloaded from an online source.<br>
+									Questions:
+									<ul style="list-style-type: circle">
+										<li style="text-align:left;"> What was the best month for sales? How much was Earned that month?</li>
+										<li style="text-align:left;">What City had the highest number of Sales?</li>
+										<li style="text-align:left;">What time should we display advertisements to maximize likelihood of customer's buying product?</li>
+										<li style="text-align:left";>What Products are most often sold together?</li>
+										<li style="text-align:left";>What product sold the most? Why do you think it sold the most?</li>
+									</ul>
+										</p>
+										<p 
+										style="text-align:left;">Rows of Data: 186,849<br>
+										Questions are going to be in a red font color<br>
+										Answers are going to be in a  blue font color
+									</p>
+								</header>
+								<a href="https://github.com/Jcerva27/DataAnalysis/blob/main/Sales_Analysis.ipynb" class="image main target="_blank""><img src="images\sales.jpeg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/Jcerva27/DataAnalysis/blob/main/Sales_Analysis.ipynb" class="button large" target="_blank">Link to Jupyter Notebook</a></li>
+								</ul>
+							</article>
+								</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2> Automation <br> & <br> Connecting to API</h2>
+									</header>
+									<a href="https://github.com/Jcerva27/DataAnalysis/blob/main/Automating_Crypto_Website.ipynb" class="image fit" target="_blank"><img src="images/crypto.jpeg" alt="" /></a>
+									<p>
+										The focus of this project was to create a script that would automatically pull data from Coinmarketcap's API. <br>
+										The user gets to choose how many times the data will be pulled and how long the time interval is between each pull.
+										So if you wanted to gather the price of Bitcoin for the whole week, you can specify that you want to pull the data 7 times, 
+										with a time interval of 1440 minutes between each pull.<br>
+										After the data gathering is complete the script will then clean certain problems the data had, then store it as a Csv File.<br>
+										The purpose of creating this is that in order to get a range of dates and their closing price for that day, you would need to pay in order to use that 
+										specifc API point. By Automating the pull request, you can essentially get the daily price of certain Crypto currencies for a certain time period for free.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Jcerva27/DataAnalysis/blob/main/Automating_Crypto_Website.ipynb" class="button" target="_blank">Link to Jupyter Notebook</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Analyzing the Movie Industry</h2>
+										</header>
+										<a href="https://github.com/Jcerva27/DataAnalysis/blob/main/Movie_Industry.ipynb" class="image main" target="_blank"><img src="images\movie-collage.jpg" alt="" /></a>
+										<p style="text-align:left;">
+											The data for this project was downloaded from Kaggle.<br>
+											 In this project I try to demonstrate the logic I use to clean the data and tackle certain problems that arise. <br>
+											 One of the problems I faced with this dataset was that there was about 30% of the data missing for the budget column. <br>
+											 Due to the large amount of missing data, I tried two methods of handling the missing data:
+											 <ul style="list-style-type: circle">
+												<li style="text-align:left;"> Removing the NAN Values and analyzing the remaining data</li>
+												<li style="text-align:left;">Creating a predictive model that fills in the missing values</li>
+											</ul>
+											</p>
+										  
+										  <p style="text-align:left;">
+											 There are 4 major sections in this project:<br>
+											 Data Cleaning, Visualization, creating a Linear Regression Model, and 
+											 Creating a Csv/Excel File.<br>
+										  </p>
+									
+									
+									<ul class="actions special">
+										<li><a href="https://github.com/Jcerva27/DataAnalysis/blob/main/Movie_Industry.ipynb" class="button large" target="_blank">Link to Jupyter Notebook</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Web Scraping<br>Amazon's Website</h2>
+									</header>
+									<a href="https://github.com/Jcerva27/DataAnalysis/blob/main/final_Amazon_webscrape.ipynb" class="image fit" target="_blank"><img src="images/amazon-logo.webp" alt="" /></a>
+									<p>In this Project, I create a script that will scrape data from amazons webpage(s) depending on what the user searched for. <br>
+										For example: If the user wants to know the price of "Monitors", they will input Monitor and designate how many pages they want the script to scrape
+										through. <br>
+										Then a DataFrame is then created with the columns: Product_name, price, product specs, rating, number of Customer Reviews, and product link. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Jcerva27/DataAnalysis/blob/main/final_Amazon_webscrape.ipynb" class="button" target="_blank">Link to Jupyter Notebook</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Excel Dashboard</h2>										
+									</header>
+									<a href="https://1drv.ms/x/s!Ata87fm9OYAvwFIr5PTzTJTXlN4e?e=5LsnIi" class="image fit" target="_blank"><img src="images/excel.webp" alt="" /></a>
+									<p>
+										The data used for this project is the same data from the "Analyzing the Movie Industry" project.<br>
+										This dashboard focuses on the top 50 Actors from the dataset. 
+									</p>
+									<ul class="actions special">
+										<li><a href="https://1drv.ms/x/s!Ata87fm9OYAvwFIr5PTzTJTXlN4e?e=5LsnIi" class="button" target="_blank">Link to Excel Dashboard</a></li>
+									</ul>
+								</article>
+
+								
+										
+								
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!--<section class="split contact"> -->
+							<section>
+								<h3>Email:</h3>
+								<p style="text-align:center">alexcervantes2794@gmail.com</p>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
